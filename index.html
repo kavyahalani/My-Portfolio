@@ -38,7 +38,7 @@
   <body>
 
     <!-- Loader -->
-    <div class="loader-con" style="display: none;">
+    <div class="loader-con">
     <div class="spinner center">
         <div class="double-bounce1"></div>
         <div class="double-bounce2"></div>
@@ -79,7 +79,7 @@
     <!-- END MAIN NAVIGATION BAR -->
 
     <!-- HOME -->
-    <section id="home" class="home-1 parallax one-page-section" style="background-position: 50% 0px;">
+    <section id="home" class="home-1 parallax one-page-section">
         <div class="page-table">
             <div class="table-cell text-center">
                 <div class="avatar-hero">
@@ -101,7 +101,7 @@
                 <div class="col-xs-12 col-md-6">
                     <div class="about-content">
                         <h2>Hi There! I'm Kavya Halani.</h2>
-                        <p style="text-align: justify;">I am a web designer and developer from Gujarat, India. I create beautiful professional websites using best practice accessibility. I have worked with ASP .NET. I got a nanodegree course as scholarship from Udacity in association with Google.</p>
+                        <p>I am a web designer and developer from Gujarat, India. I create beautiful professional websites using best practice accessibility. I have worked with ASP .NET. I got a nanodegree course as scholarship from Udacity in association with Google.</p>
 
                         <div class="row">
                             <div class="col-sm-6">
@@ -136,7 +136,7 @@
                             <span class="main-color progress-bar-text">90%</span>
                         </div>
                         <div class="progress-bar-skills">
-                            <div class="progress-bar-line main-color-bg" data-percent="90" style="width: 90%;"></div>
+                            <div id="htmlCss" class="progress-bar-line main-color-bg" data-percent="90"></div>
                         </div>
                     </div>
                     <div class="progress-bar-linear">
@@ -145,7 +145,7 @@
                             <span class="main-color progress-bar-text">85%</span>
                         </div>
                         <div class="progress-bar-skills">
-                            <div class="progress-bar-line main-color-bg" data-percent="85" style="width: 85%;"></div>
+                            <div id="js" class="progress-bar-line main-color-bg" data-percent="85"></div>
                         </div>
                     </div>
                     <div class="progress-bar-linear">
@@ -154,7 +154,7 @@
                             <span class="main-color progress-bar-text">86%</span>
                         </div>
                         <div class="progress-bar-skills">
-                            <div class="progress-bar-line main-color-bg" data-percent="86" style="width: 86%;"></div>
+                            <div id="asp" class="progress-bar-line main-color-bg" data-percent="86"></div>
                         </div>
                     </div>
                     <div class="progress-bar-linear">
@@ -163,7 +163,7 @@
                             <span class="main-color progress-bar-text">96%</span>
                         </div>
                         <div class="progress-bar-skills">
-                            <div class="progress-bar-line main-color-bg" data-percent="96" style="width: 96%;"></div>
+                            <div id="bs" class="progress-bar-line main-color-bg" data-percent="96"></div>
                         </div>
                     </div>
 
@@ -233,39 +233,39 @@
                 <h2>My Portfolio</h2>
             </div>
 
-            <div class="row filtr-container" style="position: relative;">
+            <div id="projects" class="row filtr-container">
 
-                <div class="col-sm-6 col-md-4 filtr-item design web" style="position: absolute; left: 0px; top: 0px;">
-                    <div class="single-work mb-10" style="padding-bottom: 40px;">
+                <div class="col-sm-6 col-md-4 filtr-item design web pos">
+                    <div class="single-work mb-10">
                         <a href="https://codepen.io/kavyahalani/pen/MGXmxp">
                             <img src="assets/Images/pixelArt.png" alt="work-1" style="width: 100%, height:300px;">
-                            <div style="text-align: center;">
+                            <div class="project-name">
                                 <h3>Project Title</h3>
-                                <p>Pixel Art Maker</p>
+                                <p class="project-name">Pixel Art Maker</p>
                             </div>
                         </a>
                     </div>
                 </div>
 
-                <div class="col-sm-6 col-md-4 filtr-item design web" style="position: absolute; left: 0px; top: 0px;">
-                    <div class="single-work mb-10" style="padding-bottom: 40px;">
+                <div class="col-sm-6 col-md-4 filtr-item design web pos">
+                    <div class="single-work mb-10">
                         <a href="https://codepen.io/kavyahalani/pen/LmZxdz">
                             <img class="img-responsive" src="assets/Images/animal.png" alt="work-2" style="width: 100%, height:100px;">
-                            <div style="text-align: center;">
+                            <div class="project-name">
                                 <h3>Project Title</h3>
-                                <p>Animal Trading card</p>
+                                <p class="project-name">Animal Trading card</p>
                             </div>
                         </a>
                     </div>
                 </div>
 
-                <div class="col-sm-6 col-md-4 filtr-item design web" style="position: absolute; left: 0px; top: 0px;">
+                <div class="col-sm-6 col-md-4 filtr-item design web pos">
                     <div class="single-work mb-10">
                         <a href="http://www.engineering-formula.com">
                             <img src="assets/Images/ef.png" alt="work-3" style="width: 100%, height:600px;">
-                            <div style="text-align: center;">
+                            <div class="project-name">
                                 <h3>Project Title</h3>
-                                <p>Engineering Formulas</p>
+                                <p class="project-name">Engineering Formulas</p>
                             </div>
                         </a>
                     </div>
@@ -279,7 +279,7 @@
     <hr />
 
     <!-- CONTACT -->
-    <section id="contact" class="section one-page-section" style="padding-bottom: 0px; padding-top: 0px;">
+    <section id="contact" class="section one-page-section">
         <div class="container">
             <div class="section-title">
                 <h2>contact me</h2>
@@ -347,7 +347,7 @@
     <!-- END FOOTER -->
 
     <!-- Scroll To Top Button -->
-    <a href="index.html#" class="scroll-up effect">
+    <a href="index.html#home" class="scroll-up effect">
         <i class="fa fa-angle-up"></i>
     </a>
     <!-- End Scroll To Top Button -->

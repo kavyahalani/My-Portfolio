@@ -23,6 +23,7 @@ h6 {
 	color: #333;
 }
 p {
+	text-align: justify;
 	font-size: 16px;
 	line-height: 26px;
 }
@@ -154,6 +155,7 @@ img {
 Pre Loader
 ----------------------------------------*/
 .loader-con {
+	display: none;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -359,6 +361,7 @@ Home
 	color: #fff;
 }
 #home .typer-title {
+	background-position: 50% 0px;
 	margin: 10px 0;
 	font-size: 22px;
 	color: #bfbfbf;
@@ -584,6 +587,18 @@ About
     -moz-border-radius: 12px;
     border-radius: 12px;
 }
+#htmlCss{
+	width: 90%;
+}
+#js{
+	width: 85%;
+}
+#asp{
+	width: 86%;
+}
+#bs{
+	width: 96%;
+}
 
 
 /*----------------------------------------
@@ -638,6 +653,15 @@ Services
 /*----------------------------------------
 Work
 ----------------------------------------*/
+#projects{
+	position: relative;
+}
+.project-name{
+	text-align: center;
+}
+.pos{
+	position: absolute; left: 0px; top: 0px;
+}
 #work-list {
     margin-bottom: 40px;
 }
@@ -672,6 +696,7 @@ Work
 }
 
 .single-work {
+	padding-bottom: 40px;
     position: relative;
     overflow: hidden;
 }
@@ -841,6 +866,10 @@ Clients
 /*----------------------------------------
 Contact
 ----------------------------------------*/
+#contact{
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
 .contact-item {
 	position: relative;
 }
@@ -965,6 +994,7 @@ Footer
     margin: 8px 0;
     font-size: 15px;
     text-transform: capitalize;
+    text-align: center;
 }
 
 .scroll-up {
