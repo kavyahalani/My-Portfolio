@@ -662,6 +662,18 @@ Work
 .pos{
 	position: absolute; left: 0px; top: 0px;
 }
+#workImg1{
+	width: 100%;
+	height: 200px; 
+}
+#workImg2{
+	width: 100%;
+	height: 400px;
+}
+#workImg3{
+	width: 100%;
+	height: 200px;
+}
 #work-list {
     margin-bottom: 40px;
 }
